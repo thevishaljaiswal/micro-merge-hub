@@ -3,6 +3,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProjectCard from "@/components/ProjectCard";
+import NewsSection from "@/components/NewsSection";
 import MicroFrontendContainer from "@/components/MicroFrontendContainer";
 import { demoProjects, Project } from "@/lib/demoProjects";
 import { ChevronRight, Search } from "lucide-react";
@@ -59,6 +60,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+        
+        {/* News & Blog Section */}
+        <NewsSection />
         
         {/* Projects Grid */}
         <section className="container mx-auto px-6 py-12">
